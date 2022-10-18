@@ -267,7 +267,6 @@ body
 					width: 14px
 					height: 4px
 
-
 // =========  promotion ========= 
 .promotion
 	min-height: 896px
@@ -280,3 +279,144 @@ body
 		font-size: 17px
 		line-height: 24px
 		color: #222222
+
+// =========  require ========= 
+.require
+	padding: 68px 0 57px 0
+	&_block
+		margin: 33px 0
+		text-align: left
+	&_title
+		font-weight: 400
+		font-size: 22px
+		line-height: 24px
+		color: #1CA8C3
+	&_list
+		list-style: none
+		padding-left: 50px
+		margin-top: 16px
+		li
+			position: relative
+			font-weight: 300
+			font-size: 17px
+			line-height: 24px
+			color: #222222
+			&::before
+				content: ''
+				position: absolute
+				left: -31px
+				top: 2px
+				width: 21px
+				height: 20px
+				background: url(../icon/rectangle_bloe.svg) center (center / cover) no-repeat
+	&_descr
+		font-weight: 300
+		font-size: 17px
+		line-height: 24px
+		color: #1CA8C3
+	.warning
+		.require_title
+			color: #FF5656
+		.require_list
+			li
+				&::before
+					background: url(../icon/rectangle_red.svg) center (center / cover) no-repeat
+
+// =========  world ========= 
+.world
+	position: relative
+	min-height: 716px
+	padding: 48px 0
+	background: url("../img/world_bg.jpg") center (center / cover) no-repeat
+	&_link
+		position: absolute
+		bottom: 48px
+		left: 50%
+		transform: translateX(-50%)
+		font-weight: 400
+		font-size: 15px
+		line-height: 68px
+		text-transform: uppercase
+		color: #1FBAD6
+		text-decoration: none
+		transition: 0.3s all
+		&:hover
+			color: #fff
+
+// =========  footer ========= 
+.footer
+	padding: 12px
+	&_divider
+		width: 301px
+		height: 7px
+		background: #1FBAD6
+		margin: 0 auto
+	&_iner
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+		padding: 30px
+	&_block
+		width: 33%
+	&_links
+		&_main
+			display: flex
+			justify-content: space-between
+			padding: 0 10px
+			margin-bottom: 12px
+			a
+				margin-right: 4px
+				font-weight: 300
+				font-size: 15px
+				color: #070716
+				text-transform: uppercase
+				text-decoration: none
+				&:last-child
+					margin-right: 0
+		&_sub
+			display: flex
+			justify-content: space-between
+			padding: 0 10px
+			margin-bottom: 12px
+			a
+				margin-right: 4px
+				font-weight: 300
+				font-size: 11px
+				text-transform: uppercase
+				text-decoration: none
+				color: #999999
+				&:last-child
+					margin-right: 0
+		&_lang
+			display: block
+			text-align: center
+			font-weight: 400
+			font-size: 11px
+			text-transform: uppercase
+			color: #1FBAD6
+			text-decoration: none
+	&_download
+		display: flex
+		flex-wrap: wrap
+		justify-content: flex-end
+		&_link
+			display: flex
+			justify-content: center
+			align-items: center
+			min-width: 94px
+			min-height: 26px
+			background-color: #000
+			border-radius: 5px
+			margin-left: 10px
+
+.social
+	display: flex
+	&_item
+		display: flex
+		justify-content: center
+		align-items: center
+		width: 35px
+		height: 35px
+		background-color: #070716
+		border-radius: 100%
+		margin-right: 6px
