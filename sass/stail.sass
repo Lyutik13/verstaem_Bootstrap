@@ -353,7 +353,6 @@ body
 		margin: 0 auto
 	&_iner
 		display: flex
-		flex-wrap: wrap
 		justify-content: space-between
 		padding: 30px
 	&_block
@@ -395,19 +394,6 @@ body
 			text-transform: uppercase
 			color: #1FBAD6
 			text-decoration: none
-	&_download
-		display: flex
-		flex-wrap: wrap
-		justify-content: flex-end
-		&_link
-			display: flex
-			justify-content: center
-			align-items: center
-			min-width: 94px
-			min-height: 26px
-			background-color: #000
-			border-radius: 5px
-			margin-left: 10px
 
 .social
 	display: flex
@@ -420,3 +406,50 @@ body
 		background-color: #070716
 		border-radius: 100%
 		margin-right: 6px
+		text-decoration: none
+		span
+			display: block
+			color: #fff
+			transition: 0.2s all
+			&:hover
+				color: #1FBAD6
+
+.download
+	display: flex
+	justify-content: flex-end
+	&_item
+		display: flex
+
+		width: 94px
+		height: 27px
+		margin-left: 10px
+		background-color: #000
+		border-radius: 5px
+	&_img
+		display: flex
+		justify-content: center
+		align-items: center
+		flex-basis: 30%
+		span
+			color: #fff
+			padding: 0 5px
+			&:hover
+				color: #1FBAD6
+	&_link
+		flex-basis: 70%
+		font-weight: 300
+		font-size: 7px
+		line-height: 10px
+		color: #fff
+		margin: 2px 0
+		text-decoration: none
+		transition: 0.2s all
+		span
+			font-size: 12px
+			span
+				font-size: 9px
+		&:hover
+			color: #1FBAD6
+
+.windows
+	font-size: 10px

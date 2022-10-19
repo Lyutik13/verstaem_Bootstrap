@@ -443,8 +443,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -504,32 +502,6 @@ body {
   color: #1FBAD6;
   text-decoration: none;
 }
-.footer_download {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-.footer_download_link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-width: 94px;
-  min-height: 26px;
-  background-color: #000;
-  border-radius: 5px;
-  margin-left: 10px;
-}
 
 .social {
   display: -webkit-box;
@@ -551,4 +523,78 @@ body {
   background-color: #070716;
   border-radius: 100%;
   margin-right: 6px;
+  text-decoration: none;
+}
+.social_item span {
+  display: block;
+  color: #fff;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+.social_item span:hover {
+  color: #1FBAD6;
+}
+
+.download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.download_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 94px;
+  height: 27px;
+  margin-left: 10px;
+  background-color: #000;
+  border-radius: 5px;
+}
+.download_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+}
+.download_img span {
+  color: #fff;
+  padding: 0 5px;
+}
+.download_img span:hover {
+  color: #1FBAD6;
+}
+.download_link {
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+  font-weight: 300;
+  font-size: 7px;
+  line-height: 10px;
+  color: #fff;
+  margin: 2px 0;
+  text-decoration: none;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+.download_link span {
+  font-size: 12px;
+}
+.download_link span span {
+  font-size: 9px;
+}
+.download_link:hover {
+  color: #1FBAD6;
+}
+
+.windows {
+  font-size: 10px;
 }/*# sourceMappingURL=stail.css.map */
