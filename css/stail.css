@@ -501,6 +501,8 @@ body {
   text-transform: uppercase;
   color: #1FBAD6;
   text-decoration: none;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
 }
 
 .social {
@@ -593,8 +595,4 @@ body {
 }
 .download_link:hover {
   color: #1FBAD6;
-}
-
-.windows {
-  font-size: 10px;
 }/*# sourceMappingURL=stail.css.map */
