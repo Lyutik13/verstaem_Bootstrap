@@ -747,7 +747,7 @@ body {
             align-items: center;
     top: 0;
     left: -100%;
-    width: 80%;
+    width: 50%;
     height: 100vh;
     padding: 20px 15px;
     background-color: rgba(8, 8, 22, 0.8);
@@ -857,6 +857,17 @@ body {
   }
 }
 @media (max-width: 575px) {
+  .menu {
+    width: 80%;
+  }
+  .menu_item {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+  }
+  .menu_link {
+    display: block;
+  }
   .nav {
     height: 40px;
   }
@@ -879,6 +890,10 @@ body {
     font-weight: 400;
     font-size: 10px;
     line-height: 22px;
+  }
+  .subheader_btn:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
   }
   .promo {
     padding: 100px 0 40px 0;
@@ -903,6 +918,10 @@ body {
     height: 50px;
     font-size: 16px;
     line-height: 50px;
+  }
+  .promo_btn:hover {
+    background: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
   }
   .reasons {
     padding-bottom: 40px;

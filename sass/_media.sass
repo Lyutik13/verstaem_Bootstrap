@@ -90,7 +90,7 @@
 		align-items: center
 		top: 0
 		left: -100%
-		width: 80%
+		width: 50%
 		height: 100vh
 		padding: 20px 15px
 		background-color: rgba(8, 8, 22,0.8)
@@ -173,6 +173,14 @@
 			font-size: 12px
 
 @media (max-width: 575px)
+	.menu
+		width: 80%
+		&_item
+			width: 100%
+			text-align: center
+			padding: 5px 0
+		&_link
+			display: block
 	.nav
 		height: 40px
 	.subheader
@@ -190,6 +198,8 @@
 			font-weight: 400
 			font-size: 10px
 			line-height: 22px
+			&:hover
+				background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
 	.promo
 		padding: 100px 0 40px 0
 		min-height: 400px
@@ -209,6 +219,8 @@
 			height: 50px
 			font-size: 16px
 			line-height: 50px
+			&:hover
+				background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%)
 	.reasons
 		padding-bottom: 40px
 		&_round
