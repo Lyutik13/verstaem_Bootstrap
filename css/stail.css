@@ -203,7 +203,7 @@ body {
   margin-right: 25px;
 }
 .reasons_subtitle {
-  margin-top: 15px;
+  text-align: left;
   color: #1eacc7;
   font-weight: 400;
   font-size: 17px;
@@ -688,6 +688,10 @@ body {
   }
   .reasons_round {
     margin-right: 0;
+  }
+  .reasons_subtitle {
+    margin-top: 15px;
+    text-align: center;
   }
   .reasons_text {
     margin-top: 15px;
